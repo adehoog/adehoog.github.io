@@ -1,14 +1,15 @@
 import React from "react";
-import AboutMe from "./components/AboutMe";
-import Header from "./components/Header";
-import Projects from "./components/Projects";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 export default function App() {
   return (
-      <main className={"text-gray-400 bg-gray-900 body-font"}>
-        <Header />
-        <AboutMe />
-        <Projects />
+      <main className={"App"}>
+        <Navbar />
+        <Home />
+        <Footer />
       </main>
   );
 }
