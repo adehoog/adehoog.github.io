@@ -39,7 +39,7 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <div className={"skills"}>
+            <div className={"skills"} id={"skills"}>
                 <h1>Skills</h1>
                 <ol className={"list"}>
                     <li className={"item"}>
