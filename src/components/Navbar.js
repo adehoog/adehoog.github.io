@@ -30,6 +30,9 @@ function Navbar() {
                 <a href={"#projects"}>
                     Projects
                 </a>
+                <a href={"#socials"}>
+                    Socials
+                </a>
             </div>
         </div>
     );
