@@ -12,30 +12,30 @@ function Projects() {
             <h1 className={"projectTitle"}> Projects </h1>
             <h1> C++ Projects </h1>
             <div className={"projectList"}>
-                {cppProjects.map((projects) => {
-                    return <ProjectItem name={projects.title} image={projects.image}/>;
-                })}
+                    {cppProjects.map((projects, index) => {
+                            return <ProjectItem name={projects.title} image={projects.image} itemID={index} lang={"cpp"}/>;
+                    })}
             </div>
 
             <h1> Python Projects </h1>
             <div className={"projectList"}>
-                {pythonProjects.map((projects) => {
-                    return <ProjectItem name={projects.title} image={projects.image}/>;
-                })}
+                    {pythonProjects.map((projects, index) => {
+                            return <ProjectItem name={projects.title} image={projects.image} itemID={index} lang={"py"}/>;
+                    })}
             </div>
 
             <h1> Unity Projects </h1>
             <div className={"projectList"}>
-                {unityProjects.map((projects) => {
-                    return <ProjectItem name={projects.title} image={projects.image}/>;
-                })}
+                    {unityProjects.map((projects, index) => {
+                            return <ProjectItem name={projects.title} image={projects.image} itemID={index} lang={"unity"}/>;
+                    })}
             </div>
 
             <h1> Miscellaneous Projects </h1>
             <div className={"projectList"}>
-                {miscProjects.map((projects) => {
-                    return <ProjectItem name={projects.title} image={projects.image}/>;
-                })}
+                    {miscProjects.map((projects, index) => {
+                            return <ProjectItem name={projects.title} image={projects.image} itemID={index} lang={"misc"}/>;
+                    })}
             </div>
         </div>
     );
