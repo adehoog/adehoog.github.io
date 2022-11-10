@@ -9,7 +9,6 @@ import { SiYoutube } from "react-icons/si";
 import { FaGoogleDrive } from "react-icons/fa"
 import "../styles/projectDisplay.css"
 
-
 function ProjectPage(){
     const { id } = useParams();
     const { lang } = useParams();
@@ -32,6 +31,10 @@ function ProjectPage(){
             <img src={project.image}  alt={"projImg"}/>
             <h1> {project.title} </h1>
             <p> {project.description}</p>
+            <p>
+                Below are the links to the project code, youtube trailer/demo, and/or google drive with either the GDD or project folder.
+                Links vary depending on what is available for the project.
+            </p>
             <div className={"icons"}>
                 <a href={project.github} target={"_blank"} rel={"noreferrer"}>
                     <GitHubIcon />

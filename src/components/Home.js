@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import Headshot from "../images/headshot(square).png";
+import Headshot from "../images/headshot(square).jpeg";
 import {SiCplusplus, SiCsharp, SiPython, SiJava, SiJavascript, SiUnity, SiAdobephotoshop, SiBlender} from "react-icons/si";
 
 function Home() {
