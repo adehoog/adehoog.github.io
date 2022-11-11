@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.402e1899.css",
+    "main.js": "/static/js/main.a32ba385.js",
+    "static/js/787.d2e60b56.chunk.js": "/static/js/787.d2e60b56.chunk.js",
+    "static/media/headshot(square).jpeg": "/static/media/headshot(square).386691ef5362089f5135.jpeg",
+    "static/media/night-shift.JPG": "/static/media/night-shift.b6d40514d1c9580010b8.JPG",
+    "static/media/filesystem.png": "/static/media/filesystem.966bc53a470ecd66bbc6.png",
+    "static/media/pokedex.png": "/static/media/pokedex.869d913aa1204ac9314e.png",
+    "static/media/4yp.png": "/static/media/4yp.273b31b17c9e805b992f.png",
+    "static/media/gen-img.png": "/static/media/gen-img.18676694daf8247416d0.png",
+    "static/media/wisteria.JPG": "/static/media/wisteria.4feb54723ce943373e22.JPG",
+    "static/media/wiz-det.png": "/static/media/wiz-det.ae7b120e8ab05ce5d88f.png",
+    "static/media/boids.png": "/static/media/boids.cba2d907d32eb666c937.png",
+    "static/media/minesweeper.png": "/static/media/minesweeper.59918a71bf60c5f8ecce.png",
+    "static/media/hbot.png": "/static/media/hbot.eaa47bee3195a3db1eff.png",
+    "static/media/rando-etry.png": "/static/media/rando-etry.09f7e0e77a021f96dcd7.png",
+    "index.html": "/index.html",
+    "main.402e1899.css.map": "/static/css/main.402e1899.css.map",
+    "main.a32ba385.js.map": "/static/js/main.a32ba385.js.map",
+    "787.d2e60b56.chunk.js.map": "/static/js/787.d2e60b56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.402e1899.css",
+    "static/js/main.a32ba385.js"
+  ]
+}
