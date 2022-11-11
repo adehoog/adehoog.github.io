@@ -2,36 +2,35 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: #282b30;
 }
 
 .intro {
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 400px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: #282b30;
     color: #f0f0f0;
 }
 
 .intro h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     color: #e9d35b;
-    height: 50px;
-    margin: 7%;
+    margin: auto;
+    height: 5px;
 }
 
 .intro h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: white;
+    font-size: 30px;
+    color: #f0f0f0;
     height: 50px;
     margin: 10%;
-    margin-top: 5%;
 }
 
 .row {
@@ -43,7 +42,7 @@
     height: calc(100vh - 200px);
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #282b30;
     color: #f0f0f0;
     justify-content: left;
 }
@@ -61,9 +60,8 @@
 
 .about p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
-    margin: auto;
     margin-right: 10%;
     text-align: left;
 }
@@ -73,7 +71,7 @@
     height: calc(100vh - 200px);
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #282b30;
     color: #f0f0f0;
 }
 
@@ -102,20 +100,32 @@
 
 .skills {
     font-size: 25px;
-    width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #282b30;
 }
 
 .skills h1 {
-    color: #3e497a;
+    color: #e9d35b;
+    size: 50px;
+    margin: auto;
+    text-align: center;
+    width: 5%;
+}
+
+.skills h2 {
+    color: #5f7cce;
+    text-align: center;
+    margin: 3%;
 }
 
 .skills .list {
     list-style: none;
     width: 60%;
+    color: #f0f0f0;
+    text-align: center;
 }
 
 .list .icons {
@@ -129,8 +139,13 @@
 
 @media only screen and (max-width: 600px) {
     .intro h1 {
-        font-size: 40px;
+        font-size: 30px;
+        height: 50px;
     }
+     .intro h2 {
+         font-size: 20px;
+         height: 200px;
+     }
 
     .intro .prompt {
         margin-top: 10px;
@@ -142,6 +157,10 @@
         font-size: 40px;
     }
 
+    .about p {
+        font-size: 18px;
+    }
+
     .about .prompt {
         margin-top: 10px;
         font-size: 20px;
@@ -149,12 +168,14 @@
     }
 
     .skills {
-        text-align: left;
+        text-align: center;
     }
     .list {
         padding: 0;
     }
-
+    .skills h1 {
+        width: 40%;
+    }
     .skills h2 {
         font-size: 30px;
     }

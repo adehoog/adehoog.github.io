@@ -14,7 +14,7 @@ export const cppProjects = [
         gdd: "",
     },
     {
-        title: "Minesweeper Recreation",
+        title: "Minesweeper",
         description:
             "Worked individually to recreate the game Minesweeper.\n" +
             "Made using C++ with SFML. I coded all game functionalities and implemented GUI using provided images.\n"+

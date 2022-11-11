@@ -8,9 +8,13 @@
 }
 .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color: #1e2124;
     font-size: 60px;
     font-weight: bolder;
+}
+
+.projects h1 {
+    color: #5f7cce;
 }
 
 .projectList {
