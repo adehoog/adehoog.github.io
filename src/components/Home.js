@@ -5,8 +5,8 @@ import {SiCplusplus, SiCsharp, SiPython, SiJava, SiJavascript, SiUnity, SiAdobep
 
 function Home() {
     return(
-        <div className={"home"} id={"home"}>
-            <div className={"intro"}>
+        <div className={"home"}>
+            <div className={"intro"} id={"home"}>
                 <h1>Hi, my name is Audrey DeHoog</h1>
                 <h2>
                     Welcome to my portfolio website. I keep information on my current and past coding projects here, as well as other work I've done that's important to me.
@@ -30,7 +30,6 @@ function Home() {
                     </p>
                 </div>
             </div>
-
             <div className={"skills"} id={"skills"}>
                 <h1>Skills</h1>
                 <h2> Programming Languages </h2>

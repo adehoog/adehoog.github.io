@@ -2,15 +2,16 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
+    margin: auto;
     color: #282b30;
 }
 
 .intro {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 300px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     background-color: #282b30;
@@ -21,15 +22,14 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 5vw;
     color: #e9d35b;
-    margin: auto;
-    height: 5px;
+    height: 1%;
+    margin-top: 10%;
 }
 
 .intro h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2vw;
     color: #f0f0f0;
-    height: 50px;
     margin: 10%;
 }
 
@@ -44,15 +44,14 @@
     flex-direction: column;
     background-color: #282b30;
     color: #f0f0f0;
-    justify-content: left;
-    margin: auto;
+    justify-content: space-around;
 }
 
 .about h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4vw;
     color: #e9d35b;
-    height: 50px;
+
     margin: 10%;
     margin-left: 1px;
     text-align: left;
@@ -65,6 +64,7 @@
     color: white;
     margin-right: 10%;
     text-align: left;
+    height: 70%;
 }
 
 .profile {
@@ -104,23 +104,24 @@
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #282b30;
     color: #f0f0f0;
+    justify-content: space-around;
 }
 
 .skills h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 5vw;
+    margin: 1%;
     color: #e9d35b;
-    height: 20px;
 }
 
 .skills h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3vw;
+    margin: 1%;
     color: #5f7cce;
 }
 
@@ -138,4 +139,5 @@
 
 .skills .prompt {
     width: 40%;
+
 }

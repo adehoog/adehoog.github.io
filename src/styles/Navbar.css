@@ -46,7 +46,7 @@
 #open .links {
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 100px;
+    margin-top: 1px;
 }
 
 #open a {
