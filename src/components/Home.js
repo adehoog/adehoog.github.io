@@ -12,6 +12,7 @@ function Home() {
                     Welcome to my portfolio website. I keep information on my current and past coding projects here, as well as other work I've done that's important to me.
                 </h2>
             </div>
+
             <div className={"row"}>
                 <div className={"profile"}>
                     <img src={Headshot} alt={"headshot"}/>
@@ -29,30 +30,25 @@ function Home() {
                     </p>
                 </div>
             </div>
+
             <div className={"skills"} id={"skills"}>
                 <h1>Skills</h1>
-                <ol className={"list"}>
-                    <li className={"item"}>
-                        <h2> Programming Languages </h2>
-                        <span>C++, C#, Python, Java, Javascript</span>
-                        <div className={"icons"}>
-                            <SiCplusplus />
-                            <SiCsharp />
-                            <SiPython />
-                            <SiJava />
-                            <SiJavascript />
-                        </div>
-                    </li>
-                    <li className={"item"}>
-                        <h2> Game Development </h2>
-                        <span>Unity, Photoshop, Blender</span>
-                        <div className={"icons"}>
-                            <SiUnity />
-                            <SiAdobephotoshop />
-                            <SiBlender />
-                        </div>
-                    </li>
-                </ol>
+                <h2> Programming Languages </h2>
+                <p>C++, C#, Python, Java, Javascript</p>
+                <div>
+                    <SiCplusplus />
+                    <SiCsharp />
+                    <SiPython />
+                    <SiJava />
+                    <SiJavascript />
+                </div>
+                <h2> Game Development </h2>
+                <p>Unity, Photoshop, Blender</p>
+                <div>
+                    <SiUnity />
+                    <SiAdobephotoshop />
+                    <SiBlender />
+                </div>
                 <p></p>
             </div>
         </div>
