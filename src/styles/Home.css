@@ -8,10 +8,9 @@
 
 .intro {
     width: 100%;
-    height: calc(100vh - 300px);
+    min-height: calc(100vh - 300px);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     text-align: center;
     background-color: #282b30;
@@ -39,12 +38,11 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     background-color: #282b30;
     color: #f0f0f0;
-    justify-content: space-around;
 }
 
 .about h1 {
@@ -69,7 +67,7 @@
 
 .profile {
     width: 50%;
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     background-color: #282b30;
@@ -101,14 +99,13 @@
 
 .skills {
     width: 100%;
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: #282b30;
     color: #f0f0f0;
-    justify-content: space-around;
 }
 
 .skills h1 {
