@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import Headshot from "../images/headshot(square).jpeg";
-import {SiCplusplus, SiCsharp, SiPython, SiJava, SiJavascript, SiUnity, SiAdobephotoshop, SiBlender} from "react-icons/si";
+import {SiCplusplus, SiCsharp, SiPython, SiJava, SiJavascript, SiUnity, SiAdobephotoshop, SiBlender, SiRust} from "react-icons/si";
 
 function Home() {
     return(
@@ -33,13 +33,14 @@ function Home() {
             <div className={"skills"} id={"skills"}>
                 <h1>Skills</h1>
                 <h2> Programming Languages </h2>
-                <p>C++, C#, Python, Java, Javascript</p>
+                <p>C++, C#, Python, Java, Javascript, Rust</p>
                 <div>
                     <SiCplusplus />
                     <SiCsharp />
                     <SiPython />
                     <SiJava />
                     <SiJavascript />
+                    <SiRust />
                 </div>
                 <h2> Game Development </h2>
                 <p>Unity, Photoshop, Blender</p>

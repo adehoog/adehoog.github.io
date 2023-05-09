@@ -4,6 +4,7 @@ import "../styles/Project.css"
 import { cppProjects } from "../project_data/cppProjects";
 import { pythonProjects } from "../project_data/pythonProjects";
 import { unityProjects } from "../project_data/unityProjects";
+import { webProjects} from "../project_data/webProjects";
 import { miscProjects } from "../project_data/miscProjects";
 
 function Projects() {
@@ -28,6 +29,13 @@ function Projects() {
             <div className={"projectList"}>
                     {unityProjects.map((projects, index) => {
                             return <ProjectItem name={projects.title} image={projects.image} itemID={index} lang={"unity"}/>;
+                    })}
+            </div>
+
+            <h1> Web Dev Projects </h1>
+            <div className={"projectList"}>
+                    {webProjects.map((projects, index) => {
+                            return <ProjectItem name={projects.title} image={projects.image} itemID={index} lang={"webdev"}/>;
                     })}
             </div>
 

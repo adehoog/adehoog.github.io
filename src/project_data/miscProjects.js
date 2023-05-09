@@ -1,5 +1,5 @@
-import FourYP from "../images/4yp.png"
 import BOIDs from "../images/boids.png"
+import Lilypad from "../images/lilypad.png"
 
 export const miscProjects = [
     {
@@ -13,13 +13,13 @@ export const miscProjects = [
         gdd: "",
     },
     {
-        title: "4 Year Plan Visualizer",
+        title: "Lilypad",
         description:
-            "Worked in collaboration with two other students from the University of Florida to create a tool for University of Florida Computer Science Engineering (CSE) majors to visualize the progression of their courses over 4 years.\n" +
-            "Made using Javascript with React and React Flow libraries. I coded the data structure that held and accessed CSE course information. I also coded the pop up window and button functionalities.",
-        image: FourYP,
-        youtube: "https://youtu.be/iY0gZ622T6g",
-        github: "https://github.com/eychen2/4yearplan",
+            "Worked with a group of other students on an ongoing faculty project with Dr. Jeremiah Blanchard at the University of Florida to create a dual-modality Python environment for introductory programming courses at the university level.\n" +
+            "Made using Rust with Druid as the UI-toolkit. I coded front-end functionalities such as cursor blinking, code-block visuals, and code indentation",
+        image: Lilypad,
+        youtube: "https://youtu.be/BGe21_Qeehs",
+        github: "https://github.com/cacticouncil/lilypad",
         gdd: "",
     },
 ];

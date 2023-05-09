@@ -27,7 +27,7 @@ export const cppProjects = [
     {
         title: ".WAD Directory",
         description:
-            "Worked individually to code a program that read the contents of a .WAD files, create a directory of the content, and mount it to a file system.\n"+
+            "Worked individually to code a program that reads the contents of a .WAD files, create a directory of the content, and mount it to a file system.\n"+
             "Made using C++ and mounted using WSL. I coded the file reading and the methods used to create the directory and store the file content.",
         image: FileSystem,
         youtube: "https://youtu.be/hXXAW2cZP84",

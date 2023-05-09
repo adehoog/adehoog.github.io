@@ -4,9 +4,10 @@ import { cppProjects } from "../project_data/cppProjects";
 import { pythonProjects } from "../project_data/pythonProjects";
 import { unityProjects } from "../project_data/unityProjects";
 import { miscProjects } from "../project_data/miscProjects";
+import { webProjects} from "../project_data/webProjects";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { SiYoutube } from "react-icons/si";
-import { FaGoogleDrive } from "react-icons/fa"
+import { FaGoogleDrive } from "react-icons/fa";
 import "../styles/projectDisplay.css"
 
 function ProjectPage(){
@@ -22,9 +23,24 @@ function ProjectPage(){
     else if (lang === "unity"){
         project = unityProjects[id];
     }
+    else if (lang === "webdev"){
+        project = webProjects[id];
+    }
     else{
         project = miscProjects[id];
     }
+
+    /*
+    if (project.github === ""){
+        document.getElementById("ghIcon").style.display = "none";
+    }
+    if (project.youtube === ""){
+        document.getElementById("ytIcon").style.display = "none";
+    }
+    if (project.gdd === ""){
+        document.getElementById("gdIcon").style.display = "none";
+    }
+     */
 
     return(
         <div className={"project"}>
@@ -36,14 +52,14 @@ function ProjectPage(){
                 Links vary depending on what is available for the project.
             </p>
             <div className={"icons"}>
-                <a href={project.github} target={"_blank"} rel={"noreferrer"}>
-                    <GitHubIcon />
+                <a href={project.github} target={"_blank"} rel={"noreferrer"} id={"ghIcon"}>
+                    {project.github !== "" ? <GitHubIcon /> : null}
                 </a>
-                <a href={project.youtube} target={"_blank"} rel={"noreferrer"}>
-                    <SiYoutube />
+                <a href={project.youtube} target={"_blank"} rel={"noreferrer"} id={"ytIcon"}>
+                    {project.youtube !== "" ? <SiYoutube /> : null}
                 </a>
-                <a href={project.gdd} target={"_blank"} rel={"noreferrer"}>
-                    <FaGoogleDrive />
+                <a href={project.gdd} target={"_blank"} rel={"noreferrer"} id={"gdIcon"}>
+                    {project.gdd !== "" ? <FaGoogleDrive /> : null}
                 </a>
             </div>
             <button><Link to={`/`}> Back </Link></button>
