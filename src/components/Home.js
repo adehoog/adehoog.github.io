@@ -20,13 +20,12 @@ function Home() {
                 <div className={"about"} id={"about"}>
                     <h1>About me</h1>
                     <p>
-                        I am 4th Year Computer Science Engineering Major with a minor in Digital Arts and Sciences at the University of Florida.
-                        I have a passion for coding, game design, and increasing inclusivity within STEM fields.
+                        I graduated from the University of Florida with a Bachelor of Science in Computer Science with a minor in Digital Arts and Sciences Magna Cum Laude and I am currently a graduate student at the University of Florida pursuing a Masters in Computer Science.
                         <br/>
                         <br/>
-                        I have a lot of experience in public speaking and have held many leadership positions.
-                        Currently, I am the director of Pride in Engineering, a professional development club for LGBTQ+ engineering students.
-                        I have also participated in student panels that work to encourage women to pursue careers in Computer Science.
+                        My interests include computer-human interaction, computer graphics, CS education, and game development.
+                        I was involved in research advocating for computer science educational resources for non-computing majors as an undergraduate and I am continuing this work as a master's student.
+                        I am also involved with multiple diversity and inclusion organizations that provide resources for under-represented groups in the STEM field.
                     </p>
                 </div>
             </div>
