@@ -3,6 +3,8 @@ This project was based on this tutorial by PedroTech: https://youtu.be/x7mwVn2z3
 Build command for gh-pages update:
 ```npm run deploy```
 
+key issue: https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
