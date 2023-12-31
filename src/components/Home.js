@@ -18,7 +18,7 @@ function Home() {
                     <img src={Headshot} alt={"headshot"}/>
                 </div>
                 <div className={"about"} id={"about"}>
-                    <h1>About me</h1>
+                    <h1>About Me</h1>
                     <p>
                         I graduated from the University of Florida with a Bachelor of Science in Computer Science with a minor in Digital Arts and Sciences Magna Cum Laude and I am currently a graduate student at the University of Florida pursuing a Masters in Computer Science.
                         <br/>
