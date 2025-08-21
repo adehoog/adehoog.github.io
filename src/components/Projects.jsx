@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+function Projects() {
   return (
     <>
       <h1 className="text-primary">Projects page</h1>
@@ -9,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default Projects

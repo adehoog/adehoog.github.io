@@ -13,4 +13,6 @@ React + Vite tutorial (Setup part 1): https://www.geeksforgeeks.org/reactjs/how-
 
 Adding Bootstrap (Setup part 2 - just installations and "importing bootstrap" section): https://getbootstrap.com/docs/5.3/getting-started/vite/
 
+React router dom (Setup part 3): https://www.w3schools.com/react/react_router.asp
+
 gh-pages commands (build for deployment): https://create-react-app.dev/docs/deployment/#github-pages
