@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <h1 className="text-primary">Vite + React</h1>
-      <button className="btn btn-success">Click Me</button>
+      <h1 className="text-primary">Working on a new portflio site!</h1>
+      <button className="btn btn-success">Useless button</button>
     </>
   )
 }
