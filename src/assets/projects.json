@@ -1,0 +1,97 @@
+{
+"projects":[
+    {
+    "title":"Pokedex Application", 
+    "desc":"Worked in collaboration with two other students from the University of Florida to create a GUI Pokedex that allows users to search for information about a Pokemon and compare the search times of unsorted versus unsorted maps. Made using C++ with SFML and MnGW libraries. I coded a GUI Pokedex to display search results and coded the Pokedex search bar to pass user input to the searching algorithms.",
+    "video": "https://youtu.be/fD8sFl3_5_A",
+    "repo": "https://github.com/adehoog/Project3_COP3530",
+    "langs": "['C++']"
+    },
+    {
+    "title":"Boid Simulation", 
+    "desc":"Worked in collaboration with a student from the University of California, Berkeley, to create flocking simulation that models the behavior of birds based on Craig Reynold's Boid characteristics. Made using Java with StdDraw library. I coded GUI that used the BOID location algorithms to display BOID icons and their movement.",
+    "repo": "https://github.com/adehoog/Boid-Simulation",
+    "langs": "['Java']"
+    },
+    {
+    "title":"Lilypad", 
+    "desc":"Worked with a group of other students on an ongoing faculty project with Dr. Jeremiah Blanchard at the University of Florida to create a dual-modality Python environment for introductory programming courses at the university level. Made using Rust with Druid as the UI-toolkit. I coded front-end functionalities such as cursor blinking, code-block visuals, and code indentation",
+    "repo": "https://github.com/cacticouncil/lilypad",
+    "langs": "['Rust', 'TypeScript', 'JavaScript', 'Python']"
+    },
+    {
+    "title":"Hinoa Bot", 
+    "desc":"Worked in collaboration with a student from Florida Atlantic University to create a a Discord bot that lets users search for monster information and monster part information from the game Monster Hunter Rise. Made using Python with discord.py library. I coded the data structures to hold the Monster Hunter Rise data and the algorithms used to access searched information based on user commands.",
+    "repo": "https://github.com/adehoog/Hinoa_Bot_public",
+    "langs": "['Python']"
+    },
+    {
+    "title":"Text to Image (ClipGan)", 
+    "desc":"Worked in collaboration with two other students from the University of Florida to create a text to image generator with a user friendly GUI. Made using Python with VQGAN and CLIP for the machine learning algorithm and Tkinter for the GUI. I coded the GUI that took in image descriptions and outputted the result. I also aided my teammates in improving the AI's computation time and interpreting results for the report and discussion.",
+    "video": "https://youtu.be/NUh5uPXOWv4",
+    "repo": "https://github.com/adehoog/ClipGan",
+    "langs": "['Python']"
+    },
+    {
+    "title":"Wizard Detention", 
+    "desc": "Worked in collaboration with two other students from the University of Florida to create a 2D platformer game. Made using Python with Python Arcade and other Python packages. I helped code game mechanics, add character animations, program sound effect triggers, and added game screens. I was also in charge of building the game using Pynsist to create an installer for the game. All game sprites were provided by artists on itch.io and all sounds used in the game were provided by freesound.org. Levels were designed using Tiled.",
+    "video": "https://youtu.be/Y2rj873eOjo",
+    "repo": "https://github.com/adehoog/WizDetention",
+    "langs": "['Python']"
+    },
+    {
+    "title":"Wisteria", 
+    "desc": "Worked in collaboration with two other students from the University of Florida to create a 2D platformer game. Made using Python with Python Arcade and other Python packages. I helped code game mechanics, add character animations, program sound effect triggers, and added game screens. I was also in charge of building the game using Pynsist to create an installer for the game. All game sprites were provided by artists on itch.io and all sounds used in the game were provided by freesound.org. Levels were designed using Tiled.",
+    "video": "https://youtu.be/Ywy9VGyH8E0",
+    "repo": "https://github.com/adehoog/Wisteria",
+    "langs": "['Unity', 'C#']"
+    },
+    {
+    "title":"Night Shift", 
+    "desc": "Worked in collaboration with two other students from the University of Florida  to create a 3D Unity game where players are a ghost that must complete tasks within a time limit to beat the game. Made using Unity and C# programming. I coded the game mechanics and created some of the 3D models using Maya and Blender.",
+    "video": "https://youtu.be/t5Mjn4oV2Rs",
+    "repo": "https://github.com/adehoog/Night-Shift",
+    "langs": "['Unity', 'C#']"
+    },
+    {
+    "title":"4 Year Plan Visualizer", 
+    "desc": "Worked in collaboration with two other students from the University of Florida to create a tool for University of Florida Computer Science Engineering (CSE) majors to visualize the progression of their courses over 4 years. Made using Javascript with React and React Flow libraries. I coded the data structure that held and accessed CSE course information. I also coded the pop up window and button functionalities.",
+    "video": "https://youtu.be/iY0gZ622T6g",
+    "repo": "https://github.com/adehoog/4yearplan",
+    "langs": "['JavaScript', 'CSS', 'HTML']"
+    },
+    {
+    "title":"Gator Arcade", 
+    "desc": "Worked in collaboration with three other students from the University of Florida to create a website where users can play classic games such as tic tac toe, connect four, and blackjack. Made using Angular TypeScript for the frontend and GoLang for the backend. I coded frontend visuals and most of the game functionalities. I also created Cypress tests and helped write unit tests using Jasmine",
+    "video": "https://www.youtube.com/playlist?list=PLQ2y0n3RbH6E9EKgh2TeEI0Zd1ZxzWYUA",
+    "repo": "https://github.com/adehoog/Gator-Arcade",
+    "langs": "['TypeScript', 'Go', 'HTML', 'SCSS]"
+    },
+    {
+    "title":"Py Lab Game", 
+    "desc": "Worked in collaboration with two other students from the University of Florida to create a narrative-driven game design to teach Python programming to beginners. Made using Typescript and Tailwind. I coded the overworld areas and connected the levels.",
+    "repo": "https://github.com/adehoog/py-lab-game",
+    "langs": "['TypeScript', 'Python', 'HTML', 'CSS', 'JavaScript']"
+    },
+    {
+    "title":"Ray-Tracer", 
+    "desc": "Worked in collaboration with another student from the University of Florida to create a ray tracer using OpenGL. I coded the initial setup of the project.",
+    "video": "https://youtu.be/WUXjTOAl7h8",
+    "repo": "https://github.com/adehoog/Ray-Tracer",
+    "langs": "['C', 'C++', 'Python', 'Makefile']"
+    },
+    {
+    "title":"Simple OpenGL Triangle Rendering", 
+    "desc": "Worked in collaboration with another student from the University of Florida to create a simple OpenGL application to read .obj files and display their triangular meshes. I coded the camera and performance tests.",
+    "repo": "https://github.com/adehoog/opengl-model-tranforms/tree/main",
+    "langs": "['C++', 'GLSL', 'Makefile']"
+    },
+    {
+    "title":"Model Solar System with OpenGL", 
+    "desc": "Worked in collaboration with another student from the University of Florida to create a model solar system using OpenGL. I coded the initial setup of the project and the camera movement.",
+    "video": "https://youtu.be/MKATxHekhg4",
+    "repo": "https://github.com/adehoog/graphics-final-project",
+    "langs": "['C++', 'Makefile', 'GLSL']"
+    }
+]
+}
