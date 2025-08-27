@@ -1,11 +1,13 @@
-{"publications":[
+
+export const publications = [
     {
         "type":"conference",
         "authors":"DeHoog, A. M., Blanchard, J. J., Wu, A., & Hott, J. R.",
         "date":"2025, June",
         "title":"Escaping the CS Dungeon: Modern College Curricula within and Beyond Computing",
-        "other_info":"Paper presented at 2025 ASEE Annual Conference & Exposition, Montreal, Quebec, Canada.",
-        "doi":"10.18260/1-2—56440"
+        "other_info":"Paper presented at 2025 ASEE Annual Conference & Exposition, Montreal, Quebec, Canada",
+        "doi":"10.18260/1-2--56440",
+        "link":"https://peer.asee.org/56440"
     },
     {
         "type":"conference",
@@ -13,6 +15,7 @@
         "date":"2025, November",
         "title":"Design Fixation in Cross-Cultural Design Education: Challenges in Overcoming Fixed Thinking in a Global Design Thinking Program",
         "other_info":"Paper presented at 2025 Frontiers in Education Conference, Nashville, Tennessee. DOI PENDING",
-        "doi":""
+        "doi":"",
+        "link":""
     }
-]}
+]

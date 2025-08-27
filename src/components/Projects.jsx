@@ -15,7 +15,7 @@ function langPills({langs}) {
 
 function projectCard({title, desc, video, repo, langs, index}) {
   return(
-    <div key={title} class="card">
+    <div key={title} class="card mb-3">
       <div class="card-body">
         <h5 class="card-title">{title}</h5>
         <p class="card-text">{desc}</p>
@@ -29,12 +29,12 @@ function projectCard({title, desc, video, repo, langs, index}) {
 }
 
 function Projects() {
-  //TODO: make prettier
   return (
     <>
-      <h1 className="text-primary">Projects page</h1>
-      <button className="btn btn-success">Useless button</button>
-      {projects.map(projectCard)}
+      <div class="container">
+        <h1 className="text-primary">Projects</h1>
+        {projects.map(projectCard)}
+      </div>
     </>
   )
 }
