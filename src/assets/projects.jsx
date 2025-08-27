@@ -1,5 +1,5 @@
-{
-"projects":[
+
+export const projects = [
     {
     "title":"Pokedex Application", 
     "desc":"Worked in collaboration with two other students from the University of Florida to create a GUI Pokedex that allows users to search for information about a Pokemon and compare the search times of unsorted versus unsorted maps. Made using C++ with SFML and MnGW libraries. I coded a GUI Pokedex to display search results and coded the Pokedex search bar to pass user input to the searching algorithms.",
@@ -94,4 +94,3 @@
     "langs": ["C++", "Makefile", "GLSL"]
     }
 ]
-}
