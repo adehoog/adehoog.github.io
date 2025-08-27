@@ -31,7 +31,7 @@ function projectCard({title, desc, video, repo, langs, index}) {
 function Projects() {
   return (
     <>
-      <div class="container">
+      <div class="container" className='projects'>
         <h1 className="text-primary">Projects</h1>
         {projects.map(projectCard)}
       </div>

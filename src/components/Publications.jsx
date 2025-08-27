@@ -5,7 +5,7 @@ function formatPublcation({type, authors, date, title, other_info, doi, link}) {
   //APA style citation
   if (type == "conference"){
     return (
-      <p>{authors} ({date}), <em>{title}</em> {other_info}. <a href={link}>{doi}</a></p>
+      <p key={doi}>{authors} ({date}), <em>{title}</em> {other_info}. <a href={link}>{doi}</a></p>
     )
   }
 }
